@@ -1,5 +1,20 @@
 import "./styles/Career.css";
 
+const careers = [
+  {
+    company: "Tata Motors",
+    year: "2022 - 2025",
+    details:
+      "Worked as a team leader, helping coordinate daily work, guide team members, and keep tasks moving on schedule. Built strong communication, responsibility, and leadership skills while working in a fast-paced company environment.",
+  },
+  {
+    company: "Jay Ambe Electricals",
+    year: "July 2021 - Nov 2021",
+    details:
+      "Worked as a salesperson, assisting customers with product information, sales support, and day-to-day shop responsibilities. Gained experience in customer handling, product explanation, and practical business communication.",
+  },
+];
+
 const Career = () => {
   return (
     <div className="career-section section-container">
@@ -12,48 +27,17 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+          {careers.map((career) => (
+            <div className="career-info-box" key={`${career.company}-${career.year}`}>
+              <div className="career-info-in">
+                <div className="career-role">
+                  <h5>{career.company}</h5>
+                </div>
+                <h3>{career.year}</h3>
               </div>
-              <h3>20XX</h3>
+              <p>{career.details}</p>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>20XX</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </div>

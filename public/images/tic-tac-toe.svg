@@ -1,0 +1,26 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#101010"/>
+  <rect x="70" y="70" width="1140" height="580" rx="28" fill="#181818" stroke="#2f2f2f" stroke-width="3"/>
+  <text x="640" y="135" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" text-anchor="middle">Tic Tac Toe</text>
+  <g stroke="#a8ff00" stroke-width="16" stroke-linecap="round">
+    <line x1="476" y1="205" x2="476" y2="580"/>
+    <line x1="804" y1="205" x2="804" y2="580"/>
+    <line x1="315" y1="330" x2="965" y2="330"/>
+    <line x1="315" y1="455" x2="965" y2="455"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="18" stroke-linecap="round">
+    <line x1="365" y1="240" x2="430" y2="305"/>
+    <line x1="430" y1="240" x2="365" y2="305"/>
+    <line x1="850" y1="490" x2="915" y2="555"/>
+    <line x1="915" y1="490" x2="850" y2="555"/>
+    <line x1="530" y1="365" x2="595" y2="430"/>
+    <line x1="595" y1="365" x2="530" y2="430"/>
+  </g>
+  <g stroke="#ff4f8b" stroke-width="18">
+    <circle cx="640" cy="272" r="42"/>
+    <circle cx="398" cy="518" r="42"/>
+    <circle cx="882" cy="392" r="42"/>
+  </g>
+  <rect x="508" y="604" width="264" height="54" rx="27" fill="#a8ff00"/>
+  <text x="640" y="640" fill="#101010" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="middle">HTML CSS JS</text>
+</svg>

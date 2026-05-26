@@ -90,8 +90,9 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I build simple and useful websites that work smoothly on
+                mobile and desktop. I focus on clean code, fast pages, and easy
+                user experience.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -131,8 +132,9 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I design clean layouts that look modern and are easy to
+                understand. I choose colors, spacing, and structure carefully so
+                the website feels clear.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
