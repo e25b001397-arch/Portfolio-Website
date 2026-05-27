@@ -35,6 +35,10 @@ const works = [
 
 const Work = () => {
   useGSAP(() => {
+    if (window.innerWidth <= 1025) {
+      return;
+    }
+
     let translateX: number = 0;
 
     function setTranslateX() {
